@@ -69,7 +69,7 @@ const AppContent = () => {
 function App() {
   return (
     <AuthProvider>
-      <Router>
+      <Router basename='/car-workshop'>
         <AppContent />
       </Router>
     </AuthProvider>
