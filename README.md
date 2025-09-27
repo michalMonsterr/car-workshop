@@ -1,16 +1,61 @@
-# React + Vite
+# Car Workshop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The **Car Workshop** application is a web project simulating a car repair workshop (frontend).
+Available online: [https://michalmonsterr.github.io/car-workshop/](https://michalmonsterr.github.io/car-workshop/)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
 
-## React Compiler
+* [Description](#description)
+* [Features](#features)
+* [Technologies](#technologies)
+* [Roadmap](#roadmap)
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Description
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Car Workshop** is an interactive frontend application that lets users manage a car repair shop: receive cars, plan repairs, track statuses, and calculate costs.
+The project focuses on interface design, user interaction, and applying web development tools such as Vite and React.
+
+---
+
+## Features
+
+Example functionalities (implemented or planned):
+
+* Adding new repair orders
+* Assigning parts and labor to orders
+* Tracking statuses (e.g. *Received*, *In Progress*, *Ready for Pickup*)
+* Calculating costs of parts and labor
+* Editing and removing existing orders
+* Sorting and filtering the orders list
+
+---
+
+## Technologies
+
+The project is built with:
+
+* **Vite** – fast frontend build tool
+* **React** – UI library
+* **JavaScript / JSX**
+* **CSS / Styling**
+* (optionally: ESLint, developer tools)
+
+---
+
+## Roadmap
+
+Future improvements and possible features:
+
+* Data persistence (backend / API / database)
+* Authentication and user login
+* Responsiveness and accessibility (mobile support)
+* Form validation
+* Exporting reports (PDF, CSV)
+* Integration with external APIs (e.g. car parts prices)
+* UI/UX enhancements with animations
+
+---
